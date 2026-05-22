@@ -1,0 +1,14 @@
+Service
+Purpose	Command
+List services	kubectl get svc
+Create ClusterIP	kubectl expose deployment app --port 80
+Create NodePort	kubectl expose deployment app --type NodePort --port 80
+Create LoadBalancer	kubectl expose deployment app --type LoadBalancer --port 80
+Describe service	kubectl describe svc <name>
+Delete service	kubectl delete svc <name>
+Namespace
+Purpose	Command
+Create namespace	kubectl create namespace dev
+List namespaces	kubectl get ns
+Switch namespace	kubectl config set-context --current --namespace dev
+Delete namespace	kubectl delete ns dev
