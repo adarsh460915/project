@@ -1,4 +1,4 @@
-Service
+cluster info
 Purpose	Command
 List services	kubectl get svc
 Create ClusterIP	kubectl expose deployment app --port 80
@@ -12,3 +12,4 @@ Create namespace	kubectl create namespace dev
 List namespaces	kubectl get ns
 Switch namespace	kubectl config set-context --current --namespace dev
 Delete namespace	kubectl delete ns dev
+this is for test purpose
