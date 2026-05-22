@@ -13,3 +13,4 @@ List namespaces	kubectl get ns
 Switch namespace	kubectl config set-context --current --namespace dev
 Delete namespace	kubectl delete ns dev
 this is for test purpose
+jsanacksandlasm;
